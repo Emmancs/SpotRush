@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="rushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer glow circle -->
+  <circle cx="45" cy="45" r="32" fill="none" stroke="url(#rushGrad)" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Lens fill -->
+  <circle cx="45" cy="45" r="28" fill="url(#lensGrad)"/>
+  
+  <!-- Handle -->
+  <line x1="68" y1="68" x2="88" y2="88" stroke="url(#rushGrad)" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Spot Sparkles -->
+  <path d="M45 28 L47 38 L57 40 L47 42 L45 52 L43 42 L33 40 L43 38 Z" fill="#fbbf24"/>
+  <circle cx="34" cy="48" r="3" fill="#ffffff" opacity="0.9"/>
+  <circle cx="56" cy="49" r="2.5" fill="#ffffff" opacity="0.8"/>
+  <path d="M52 30 L53 34 L57 35 L53 36 L52 40 L51 36 L47 35 L51 34 Z" fill="#ffffff" opacity="0.9"/>
+</svg>
