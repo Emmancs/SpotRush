@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpotRush 🔍
 
 **SpotRush** is an interactive, fast-paced "Spot the Difference" web game built with React, TypeScript, Vite, and Tailwind CSS. Players explore vibrant thematic worlds—from sun-drenched African savannas to deep coral reefs, enchanted castles, cozy kitchens, and cosmic star stations—identifying subtle anomalies before time runs out.
@@ -167,3 +168,7 @@ npm run preview
 5. If you get stuck, click the **Hint** button to illuminate an unfound anomaly.
 6. Find all differences before the countdown expires to win and earn up to 3 stars!
 
+=======
+# SpotRush
+SpotRush is a colorful and relaxing Spot the Difference game. Compare two cartoon pictures, uncover hidden differences, explore exciting categories and challenge your observation skills. Play free, anytime, anywhere!
+>>>>>>> 659472669eb95399ef5496bab7367a0aa757f10e
